@@ -1,0 +1,52 @@
+---
+title: "Análisis de Precios"
+output:
+  html_document:
+    theme: flatly
+    css: estilos.css
+    toc: false
+    toc_float: false
+    highlight: tango
+    number_sections: true
+    self_contained: true
+---
+
+<!-- Cambiar aqui arriba los elementos toc: true y toc_float:true para poner el panel izquiero de navegacion -->
+
+
+
+<!-- 🔵 BANNER DE IMAGEN -->
+<div class="banner">
+  <img src="imagenes/banner.jpg" class="img-responsive center-block" alt="Banner principal">
+</div>
+
+
+
+# Bienvenido {.unlisted .unnumbered} 
+<!--La opción entre corchetes se utilizó para que no se enumere el encabezado-->
+
+Este sitio presenta análisis de precios de productos usando datos de PROFECO en R.
+
+```{r mensaje, echo=FALSE}
+cat("Hoy es:", Sys.Date())
+
+
+```
+<div class="banner2">
+  <img src="imagenes/banner2.jpg" class="img-responsive center-block" alt="Banner principal">
+</div>
+
+
+
+
+# Sección 1 
+
+En esta sección podemos presentar contenido
+
+# Sección 2
+
+En esta sección podemos presentar contenido
+
+# Sección 3
+
+En esta sección podemos presentar contenido
