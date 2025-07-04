@@ -1,0 +1,29 @@
+name: "mi_sitio_web"
+output_dir: "docs"
+navbar:
+  title: "Dirección de Análisis Agrícola y Agroindustrial"
+  left:
+    - text: "Inicio"
+      href: index.html
+    - text: "Análisis"
+      href: analisis.html
+    - text: "Precios"
+      href: precios.html
+    - text: "Sequía"
+      href: sequia.html
+  right:
+    - icon: fa-github
+      href: https://github.com/tu_usuario/mi_sitio_web
+output:
+  html_document:
+    theme: flatly
+    css: estilos.css
+    toc: true
+    toc_float: true
+    highlight: tango
+    number_sections: true
+    self_contained: true
+
+
+
+
